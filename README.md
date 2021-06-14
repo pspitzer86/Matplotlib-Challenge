@@ -1,4 +1,4 @@
-# Matplotlib-Challenge
+# Matplotlib-Mouse-Tumor-Analysis
 
 The purpose of this challenge was to analysis a study of the affect of various drug regimens on tumors in mice and plot various combinations of the data in different ways.  Using groupbys, data drops, sorting, data drops, and loops the data was reorganized in order to be plotted using both Pandas and PyPlot from MatPlotlib to create bar graphs, pie charts, line graphs, scatter plots, boxplots, and linear regression.
 
@@ -13,3 +13,6 @@ The next part of the assignment wanted boxplots created from the data of only fo
 A line graph needed to be created to show the tumor volume over time for any mouse treated with the Capomulin drug.  All data associated with Capomulin was pulled out and data was dropped on Mouse ID.  The Mouse IDs were put into a list to be called for the line graph.  The tumor data for any Mouse ID called from the list was sent to a list as well as the timepoint data into its own list.  This data was then used to plot a line graph for that particular Mouse ID.  The necessary labels and titles were added with the plot.
 
 A scatter plot of Avg Tumor Volume per Mouse Weight for mice treated with Capomulin, along with a linear regression of that data needed to be created.  The Capomulin data was grouped by Mouse ID and then averged using the mean method.  This provided the Avg Tumor Volume and the Mouse Weight since the weight did not change over the course of the data.  The Avg Tumor Volume Data and the Mouse Weight data was pulled into their own lists to be plotted in a scatter plot.  The correlation coefficient and the r value was also calculated from this data.  The r value was used to find the equation of the linear regression line to be plotted in the scatter plot.  Conclusions were then deduced from all the data and graphs created.
+
+![image](https://user-images.githubusercontent.com/65049133/121840356-e25c7880-cc90-11eb-899c-cea1e4a82004.png)
+
